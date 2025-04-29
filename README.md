@@ -1,12 +1,12 @@
 # Basic_function_for_binance_testnet
 Binance Futures MA Crossover Trading Bot
-📈 Project Overview
+Project Overview
 This project is a Python-based automated trading bot that connects to the Binance Futures API.
 It implements a simple Moving Average (MA) Crossover Strategy to detect potential buy (long) or sell (short) signals, and automatically executes trades via market orders.
 
 The bot calculates the trade amount as 0.1% of the available USDT balance for each trade, and sets both take-profit and stop-loss orders based on the entry price.
 
-⚙️ Key Features
+Key Features
 Supports Binance USDT-margined perpetual futures.
 
 Fetches real-time price and historical candlestick (Kline) data.
@@ -27,8 +27,8 @@ Auto-closes positions and outputs real-time profit/loss per trade.
 
 Secure API authentication via environment variables.
 
-🛠️ Tech Stack
-Python 3.9+
+Tech Stack
+Python 3.10+
 
 Requests (HTTP API client)
 
@@ -36,15 +36,15 @@ Pandas (data handling and indicator calculation)
 
 python-dotenv (environment variable management)
 
-🗂️ Project Structure
+Project Structure
 
 binance_ma_bot/
 │
-├── BTC_trading_bot_BETA.ipynb           # Main script (core trading logic)
+├── BTC_trading_bot_BETA.py           # Main script (core trading logic)
 ├── API.env              # Environment variables (API keys) - DO NOT upload to GitHub
 ├── README.md         # Project documentation
 
-📋 How to Use
+How to Use
 1. Install Dependencies
 
 pip install binance-futures-connector
@@ -55,7 +55,8 @@ Create a .env file in the project root directory with the following content:
 
 BINANCE_API_KEY=your_api_key_here
 BINANCE_API_SECRET=your_api_secret_here
-⚠️ Tip: Only enable the "Futures Trading" permission for your API keys. Never enable withdrawal permissions for security reasons.
+
+Tip: Only enable the "Futures Trading" permission for your API keys. Never enable withdrawal permissions for security reasons.
 
 3. Run the Bot
 Start the trading bot:
