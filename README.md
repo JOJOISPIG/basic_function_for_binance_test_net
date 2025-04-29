@@ -1,5 +1,4 @@
-# Basic_function_for_binance_testnet
-Binance Futures MA Crossover Trading Bot
+# Binance UMFutures BTC Trading Bot (base on MA Crossover)
 Project Overview
 This project is a Python-based automated trading bot that connects to the Binance Futures API.
 It implements a simple Moving Average (MA) Crossover Strategy to detect potential buy (long) or sell (short) signals, and automatically executes trades via market orders.
