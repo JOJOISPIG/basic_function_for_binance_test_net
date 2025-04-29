@@ -38,9 +38,11 @@ python-dotenv (environment variable management)
 
 Project Structure
 
-binance_ma_bot/
+BTC_UMfutures_trading_bot_BETA/
 │
-├── BTC_trading_bot_BETA.py           # Main script (core trading logic)
+├── main.py           # Main script (core trading logic)
+├── config
+├── position
 ├── API.env              # Environment variables (API keys) - DO NOT upload to GitHub
 ├── README.md         # Project documentation
 
