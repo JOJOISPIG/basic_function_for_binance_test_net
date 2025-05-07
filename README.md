@@ -44,7 +44,9 @@ BTC_UMfutures_trading_bot_BETA/
 ├── position
 ├── API.env              # Environment variables (API keys) - DO NOT upload to GitHub
 ├── README.md         # Project documentation
+
 ![image](https://github.com/JOJOISPIG/basic_function_for_binance_testnet/blob/main/trading%20bot%20flow.drawio.png)
+
 How to Use
 1. Install Dependencies
 
