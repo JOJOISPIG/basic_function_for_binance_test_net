@@ -44,7 +44,7 @@ BTC_UMfutures_trading_bot_BETA/
 ├── position
 ├── API.env              # Environment variables (API keys) - DO NOT upload to GitHub
 ├── README.md         # Project documentation
-
+![image](https://github.com/user-attachments/assets/79220004-001b-4f74-b6b3-0bec654cafb0)
 How to Use
 1. Install Dependencies
 
