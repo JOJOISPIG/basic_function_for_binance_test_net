@@ -147,7 +147,7 @@ def main():
 
                 time.sleep(50)
 
-                break  # 單次跑完退出（可以改成持續跑）
+                break  # run for once and break out the loop
             else:
                 logging.info("Waiting for signal...")
             time.sleep(10)
